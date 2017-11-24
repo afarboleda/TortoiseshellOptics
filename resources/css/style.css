@@ -23,6 +23,7 @@ header img {
 
 header span {
   padding-right: 2rem;
+  color: white;
 }
 
 header img,
@@ -42,7 +43,7 @@ header nav {
 }
 
 .banner img {
-	max-width: 100%;
+	width: 100%;
 	height: auto;
 	display: block;
 }
