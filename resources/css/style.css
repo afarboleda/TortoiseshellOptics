@@ -148,6 +148,10 @@ footer img {
 
 @media only screen and (max-width: 768px) {
 
+  div {
+    border: 1px solid red;
+  }
+
   .site {
     width: 100%;
   }
