@@ -143,3 +143,44 @@ footer img {
   height: 1.5rem;
   padding-right: 1rem;
 }
+
+/*Tablet responsive*/
+
+@media only screen and (max-width: 960px) {
+
+  .site {
+    width: 100%;
+  }
+
+  /*Banner background image container*/
+
+  .banner {
+    background-position: 40%;
+    height: 22rem;
+  }
+
+  /*Banner menu styles*/
+
+  .menu {
+    margin-top: 0rem;
+  }
+
+  /*Banner textbox stlyes*/
+
+  .textbox {
+    padding-left: 0rem;
+    padding-right: 2rem;
+  }
+
+  .textbox p{
+    margin-top: 5rem;
+    padding: 0.75rem 4rem;
+    font-size: 1.33rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+
+body {
+  background-color: red;
+}
