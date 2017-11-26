@@ -6,7 +6,7 @@ html {
 
 /*Desktop site width*/
 
-.site {
+#site {
   width: 960px;
 }
 
@@ -48,6 +48,10 @@ html {
 
 .menu span {
   padding-right: 2rem;
+}
+
+#displaymobile {
+  display: none;
 }
 
 /*Banner textbox stlyes*/
@@ -144,11 +148,11 @@ footer img {
   padding-right: 1rem;
 }
 
-/*Tablet responsive*/
+/*Tablet responsive styles*/
 
 @media only screen and (max-width: 768px) {
 
-  .site {
+  #site {
     width: 100%;
   }
 
@@ -180,8 +184,103 @@ footer img {
   }
 }
 
+/*Mobile responsive styles*/
+
 @media only screen and (max-width: 600px) {
 
-body {
-  background-color: red;
+  body {
+    background-color: red;
+  }
+
+  /*Banner background image container*/
+
+  .banner {
+    background-position: 20%;
+    height: 17rem;
+  }
+
+  /*Banner menu styles*/
+
+
+  #hidemobile {
+    display: none;
+  }
+
+  #displaymobile {
+    display: inherit;
+  }
+
+  /*Banner textbox stlyes*/
+
+  .textbox {
+    padding-right: 0rem
+  }
+
+  .textbox p{
+    width: 100%;
+    margin-top: 9rem;
+    padding: 1rem 0;
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  /*Highlights stlyes*/
+
+  .highlights {
+    flex-direction: column;
+    padding: 3.77rem 0rem;
+  }
+
+  .highlights div {
+    padding: 0rem;
+  }
+
+  .highlights p {
+    padding-top: 1rem;
+    font-size: 0.77rem;
+  }
+
+  .paper p,
+  .ruler p {
+    padding-bottom: 1.54rem;
+  }
+
+  /*Philosophy and Appointments stlyes*/
+
+  .about {
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 0rem;
+  }
+
+  .about .text{
+    width: 100%;
+    padding-bottom: 0rem;
+  }
+
+  .about .title {
+    width: 100%;
+    text-align: center;
+  }
+
+  .content {
+    font-size: 0.77rem;
+    padding-bottom: 4rem;
+  }
+
+  .about .emptyspace{
+    display: none;
+  }
+
+  /* stlyes*/
+
+  footer {
+    justify-content: center;
+  }
+
+  footer img {
+    padding: 0rem;
+  }
+
+
 }
