@@ -146,7 +146,7 @@ footer img {
 
 /*Tablet responsive*/
 
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 768px) {
 
   .site {
     width: 100%;
