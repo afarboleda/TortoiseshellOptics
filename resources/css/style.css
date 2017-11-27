@@ -140,11 +140,12 @@ footer {
   display: flex;
   margin: 0 auto;
   background-color: azure;
-  padding: 4rem;
+  padding: 4rem 0rem;
 }
 
 footer img {
   height: 1.5rem;
+  padding-left: 4rem;
   padding-right: 1rem;
 }
 
@@ -187,10 +188,6 @@ footer img {
 /*Mobile responsive styles*/
 
 @media only screen and (max-width: 600px) {
-
-  body {
-    background-color: red;
-  }
 
   /*Banner background image container*/
 
@@ -261,12 +258,14 @@ footer img {
   .about .title {
     width: 100%;
     text-align: center;
+    padding: 0.5rem 0rem;
   }
 
   .content {
     font-size: 0.77rem;
-    padding-bottom: 4rem;
+    padding: 1rem 0.5rem 4rem 0.5rem;
   }
+
 
   .about .emptyspace{
     display: none;
